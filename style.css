@@ -1,0 +1,329 @@
+body {
+    background-color: white;
+    font-family: 'Lora', serif;
+    margin: 0;
+    text-align: center;
+    font-size: 170%;
+    font-family: vardena sans-serif;
+}
+.marquee {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 0;  
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */                                                                                                                                     
+  position: sticky;
+  top: 0;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #04AA6D;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+    float: none;
+  }
+}
+.HTML {
+  background-color: rgb(255, 158, 171);
+}
+.tutorial {
+  color: black;
+}
+.tutorial:hover {
+  color:#04AA6D;
+}
+.h1  {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #CFB997;
+}
+h1 {
+    background-color: #E3ACF9;
+    text-align: left;
+}
+h2 {
+    background-color: #F48484;
+    text-align: left;
+}
+h3 {
+    background-color:#9EA1D4;
+    text-align: left;
+}
+h4 {
+    background-color:#1cc375;
+    text-align: left;
+}
+h5 {
+    background-color:#ADE792;
+    text-align: left;
+}
+h6 {
+    background-color:#F0E161;
+    text-align: left;
+}
+.p {
+    color: red;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }           
+    td, th {
+    border: 1px solid #36a736;
+    text-align: center;
+    padding: 8px;
+  }          
+    tr:nth-child(even) {
+    background-color: #dbbddd;
+  }
+    .colors {
+    /* box-sizing: inherit;
+    display: block; */
+    line-height: 80px;
+    color: white;
+  } 
+  .h6 {
+    color: black;
+  } 
+  .color1 {
+    display: flex;
+  }
+  .color2 {
+    display: flex;
+  }
+  .tomato {
+    background-color: tomato;
+   margin: 10px 0;
+   width: 50%;
+  }
+  .orange {
+    background-color: orange;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .dodgerblue {
+    background-color: dodgerblue;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .seagreen {
+    background-color: mediumseagreen;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .gray {
+    background-color: gray;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .slateblue {
+    background-color: slateblue;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .violet {
+    background-color: violet;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .bgcolor {
+    text-align: center;
+    background-color: rgb(14, 128, 173);
+  }
+  .bgcolor1 {
+    text-align: center;
+    background-color: tomato;
+  }
+  .textcolor {
+    color: tomato;
+  }
+  .textcolor1 {
+    color: dodgerblue;
+  }
+  .textcolor2 {
+    color:mediumseagreen
+  }
+  .border1 {
+    border:2px solid tomato;
+  } 
+  .border2 {
+    border:2px solid dodgerblue;
+  }
+  .border3 {
+    border:2px solid violet;
+  }
+  .ul {
+    text-align: left;
+  }
+  .strong {
+    color: red;
+  }
+  .bgimage {
+    background-image: url("bgimage.jpg");
+    color: white;
+  }
+  .bgrepeat {
+    background-image: url("bgrepeat.webp");
+  }
+  .span {
+    color:red;
+  }
+  .norepeat {
+    background-image: url("norepeat.jpg");
+    background-repeat:no-repeat;
+  }
+ 
+  .p {
+    text-align: left;
+    color: black;
+  }
+  .bgposition {
+    background-image: url("bgposition.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    margin-right: 0px;
+  }
+  .bgattach {
+    background-image: url("bgposition.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    margin-right: 0px;
+    background-attachment: fixed;
+  }
+  .p1 {
+    text-align: left;
+  }
+  .bgattach2 {
+    background-image: url("bgposition.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    margin-right: 0px;
+    background-attachment: scroll;
+  }
+  .p2 {
+    text-align: left;
+  }
+  .normal {
+    border: 2px solid red;
+    padding: 5px;
+  }
+  .round1 {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .round2 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+  }
+  .round3 {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 5px;
+  }
+.dotted {
+  border-style: dotted;
+}
+.dashed {
+  border-style: dashed;
+}
+.solid {
+  border-style: solid;
+}
+.double {
+  border-style: double;
+}
+.groove {
+  border-style: groove;
+}
+.ridge {
+  border-style: ridge;
+}
+.inset {
+  border-style: inset;
+}
+.outset {
+  border-style: outset;
+}
+.none {
+  border-style: none;
+}
+.hidden {
+  border-style: hidden;
+}
+.mix {
+  border-style: dotted dashed solid double;
+}
+span {
+  color: red;
+}
+.p3 {
+  margin: 70px;
+  border: 1px solid #4CAF50
+}
+.list {
+  color: red;
+  text-align: left;
+}
+.list1 {
+  text-align: left;
+}
+.p4 {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+.ex1 {
+  width: 300px;
+  background-color: yellow;
+}
+.ex2 {
+  width: 300px;
+  padding: 25px;
+  background-color: lightblue;
+}
+.Ex2 {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+.end {
+  text-decoration: dashed;
+  color: #c30606;
+  font-size: larger;
+  font-weight: 100;
+  font-style: oblique;
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Learn with Ease</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div>
+        <h1 class="marquee"><marquee  direction="right" height="70px"><em>Learn CSS</em></marquee></h1>
+        <ul class="topnav">
+            <li><a class="active" href="#home">Home</a></li>
+            <li class="right"><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        <h1 class="h1">CSS Introduction</h1>
+        <p>CSS is the language we use to style a Web page.</p>
+        <h2>What is CSS?</h2>
+        <ul>
+            <li>CSS stands for Cascading Style Sheets</li>
+            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+            <li>External stylesheets are stored in CSS files</li>
+        </ul>
+        <h2>Why we use CSS?</h2>
+        <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>       
+        <h2>CSS Saves a Lot of Work!</h2>       
+        <p>The style definitions are normally saved in external .css files.</p>       
+        <p> With an external stylesheet file, you can change the look of an entire website by changing just one file! </p>
+        <p class="HTML">If you don't know what HTML is, we suggest that you read our <a href="https://sofiyacti054.github.io/HTML-Tags/"alt="HTML Tutorial" class="tutorial" target="_blank">HTML Tutorial </a></p>       
+    </div>
+        <hr>
+        <div>
+         <h1>CSS Syntax</h2>      
+            <p>A CSS rule consists of a selector and a declaration block.</p>          
+            <img src="images/syntax.gif" alt="syntax-img">     
+            <p>The selector points to the HTML element you want to style.</p>      
+            <p>The declaration block contains one or more declarations separated by semicolons.</p>       
+            <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>      
+            <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.      
+                <h5>Example</h5>     
+                <p>In this example all elements will be center-aligned, with a red text color:</p>       
+                <P class="p">Hello World!</P>       
+                <p class="p">These paragraphs are styled with CSS.</p>
+         </div>
+        <hr> 
+        <div>  
+                <h1>CSS Selectors</h1>     
+                <p>A CSS selector selects the HTML element(s) you want to style.</p>      
+                <p>We can divide CSS selectors into five categories:</p>      
+                <ul>      
+                    <li>Simple selectors (select elements based on name, id, class)</li>       
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>       
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>        
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>      
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>      
+                </ul>       
+                <h2>All CSS Simple Selectors</h2>
+        <table>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Example Description</th>
+            </tr>
+            <tr>
+                <th>#id</th>
+                <td>#firstname></div></td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr>
+                <td>.class</td>
+                <td>.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>element.class</td>
+                <td>p.intro</td>
+                <td>Selects only < p > elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr>
+                <td>element</td>
+                <td>p</td>
+                <td>Selects all < p > elements</td>
+            </tr>
+            <tr>
+                <td>element,element,..</td>
+                <td>div,p</td>
+                <td>Selects all < div> elements and all < p> elements</td>
+            </tr>
+        </table>
+    </div>   
+        <hr>
+    <div>
+      <div>
+        <h1>How to Add CSS</h1>      
+        <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</p>      
+        <h3>Three Ways to Insert CSS</h3>      
+        <p>There are three ways of inserting a style sheet:</p>       
+        <p>1.External CSS</p>        
+        <p>2.Internal CSS</p>
+        <p>3.Inline CSS</p>        
+        <h4>External CSS</h4>        
+        <p>With an external style sheet, you can change the look of an entire website by changing just one file!</p>       
+        <p>Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</p>       
+        <p>An external style sheet can be written in any text editor, and must be saved with a .css extension.</p>       
+        <p>The external .css file should not contain any HTML tags.</p>       
+        <p>External styles are defined within the < link> element, inside the < head> section of an HTML page</p>       
+        <h4>Internal CSS</h4>       
+        <p>An internal style sheet may be used if one single HTML page has a unique style.</p>        
+        <p>The internal style is defined inside the < style> element, inside the head section.</p>           
+        <p>Internal styles are defined within the < style> element, inside the < head> section of an HTML page</p>        
+        <h4>Inline CSS</h4>        
+        <p>An inline style may be used to apply a unique style for a single element.</P>        
+        <p>To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</p>         
+        <p>Inline styles are defined within the "style" attribute of the relevant element</p>           
+      </div>
+        <hr>
+        <div>
+        <h1>CSS Comments</h1>       
+            <p>CSS comments are not displayed in the browser, but they can help document your source code.</p>       
+            <p> Comments are used to explain the code, and may help when you edit the source code at a later date.</p>      
+            <p>Comments are ignored by browsers.</p>             
+            <p> A CSS comment is placed inside the < style> element, and starts with /* and ends with */</p>      
+            <p>You can add comments wherever you want in the code.</p>      
+            <p>Comments can also span multiple lines.</p>      
+            <p> You can add comments to your HTML source by using the <!--...--> syntax.</p>      
+        </div>
+        <hr>  
+        <div> 
+        <h1>CSS Colors</h1>      
+            <p>Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.</p>      
+            <div class="colors">       
+                <h2>CSS Colors Names</h2>      
+                <h6 class="h6">In CSS, a color can be specified by using a predefined color name:</h6>   
+                <div class="color1">   
+                <div class="tomato">Tomato</div>        
+                <div class="orange">Orange</div>
+                <div class="dodgerblue">Dodgerblue</div>              
+                <div class="seagreen">Mediumseagreen</div> 
+            </div>
+            <div class="color2">        
+                <div class="gray">Gray</div>       
+                <div class="slateblue">Slateblue</div>      
+                <div class="violet">Violet</div>          
+            </div>     
+        </div>  
+        <hr>
+        <div>
+            <h2>CSS Background color</h2>    
+            <p>You can set the background color for HTML elements:</p>    
+            <p class="bgcolor">Hello World!</p>    
+            <p class="bgcolor1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>   
+            <h2>CSS Text Color</h2>     
+            <p>You can set the color of text:</p>     
+            <p class="textcolor">Hello World!</p>   
+            <p class="textcolor1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>   
+            <p class="textcolor2">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>   
+            <h2>CSS Border Color</h2>
+            <p>You can set the color of borders:</p>   
+            <div class="bgcolor2">   
+                <p class="border1">Hello World!</p>   
+                <p class="border2">Hello World!</p>   
+                <p class="border3">Hello World!</p>   
+            </div>
+            <h1>CSS Backgrounds</h1>
+            <p>The CSS background properties are used to add background effects for elements.</p>
+        <h3>CSS background-color</h3>
+            <p>The background-color property specifies the background color of an element.</p>
+            <ul class="ul">
+            <p>With CSS, a color is most often specified by:</p>
+                <li>a valid color name - like "red"</li>
+                <li>a HEX value - like "#ff0000"</li>
+                <li>an RGB value - like "rgb(255,0,0)"</li>
+            </ul>
+        <div class="bgimage">
+        <h2>CSS background-image</h2>
+            <p>The background-image property specifies an image to use as the background of an element.</p>
+            <p>By default, the image is repeated so it covers the entire element.</p>
+            <p><strong class="strong">Note:</strong>When using a background image, use an image that does not disturb the text.</p>
+            <p>The background image can also be set for specific elements, like the < p> element</p>
+        </div>
+        <div>
+        <h1>CSS Background-repeat</h1>
+        <p>By default, the background-image property repeats an image both horizontally and vertically.</p>
+        <p> Some images should be repeated only horizontally or vertically, or they will look strange.</p>
+        <div class="bgrepeat">
+           <p>Hello World!</p>
+           <p>Strange background image...</p>
+           <p>To repeat an image Horizontally, set <span>background-repeat: repeat-x</span></p>
+           <p>To repeat an image vertically, set <span>background-repeat: repeat-y</span></p>
+        </div>
+        <div class="norepeat">
+           <h4 class="h4">CSS background-repeat: no-repeat</h4>
+        <div class="p">
+           <p>Showing the background image only once is also specified by the <span class="span">background-repeat property:</span></p>
+           <p>It Shows the background image only once.</p>
+           <p>Hello World!</p>
+           <p>CSS properties background image example.</p>
+           <p>The background image only shows once, but it is disturbing the reader!</p>
+        </div>
+        </div>
+        <div class="bgposition">
+          <h3>CSS background-position</h3>
+          <p>The <span>background-position</span> property is used to specify the position of the background image.</p>
+          <p>Position the background image in the top-right corner</p>
+          <p>Hello World!</p>
+          <p>Here, the background image is only shown once. In addition it is positioned away from the text.</p>
+          <p>In this example we have also added a margin on the right side, so that the background image will not disturb the text.</p>
+        </div>
+        <div class="bgattach">
+            <h1>The background-attachment Property</h1>
+
+            <p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).</p>
+          <div class="p1">   
+                     <p><strong>Tip:</strong> If you do not see any scrollbars, try to resize the browser window.</p>
+            
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>
+                     <p>The background-image is fixed. Try to scroll down the page.</p>  
+            </div>          
+        </div>
+        <div class="bgattach2">
+                     <h1>The background-attachment Property</h1>
+                     <p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).</p>
+                <div class="p2">
+                     <p><strong>Tip:</strong> If you do not see any scrollbars, try to resize the browser window.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                     <p>The background-image scrolls. Try to scroll down the page.</p>
+                </div>
+            <h1>All CSS Background Properties</h1>
+        <table>
+            <tr>
+               <th>Property</th>
+               <th>Description</th>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Sets the background color of an element</td>
+            </tr>
+            <tr>
+                <td>background-image</td>
+                <td>Sets the background image for an element</td>
+            </tr>
+            <tr>
+                <td>background-position</td>
+                <td>Sets the starting position of a background image</td>
+            </tr>
+            <tr>
+                <td>background-repeat</td>
+                <td>Sets how a background image will be repeated</td>
+            </tr>
+            <tr>
+                <td>background-attachment</td>
+                <td>Sets whether a background image is fixed or scrolls with the rest of the page</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+        <div class="borders">
+            <h1>CSS Borders</h1>
+            <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+            <h2>The border-radius Property</h2>
+            <p>This property is used to add rounded borders to an element:</p>
+
+            <p class="normal">Normal border</p>
+            <p class="round1">Round border</p>
+            <p class="round2">Rounder border</p>
+            <p class="round3">Roundest border</p>
+            <h1>CSS Border Style</h1>
+            <p>The <span>border-style</span> property specifies what kind of border to display.</p>
+            <p>The following values are allowed:</p>
+            <ul class="ul">
+                <li><span>dotted</span> - Defines a dotted border</li>
+                <li><span>dashed</span> - Defines a dashed border</li>
+                <li><span>solid</span> - Defines a solid border</li>
+                <li><span>double</span> - Defines a double border</li>
+                <li><span>groove</span> - Defines a 3D grooved border. The effect depends on the border-color value</li>
+                <li><span>ridge</span> - Defines a 3D ridged border. The effect depends on the border-color value</li>
+                <li><span>inset</span> - Defines a 3D inset border. The effect depends on the border-color value</li>
+                <li><span>outset</span> - Defines a 3D outset border. The effect depends on the border-color value</li>
+                <li><span>none</span> - Defines no border</li>
+                <li><span>hidden</span> - Defines a hidden border</li>
+            </ul>
+            <p>The <span>border-style</span> property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+            <h2>The border-style Property</h2>
+            <p>This property specifies what kind of border to display:</p>
+            <p class="dotted">A dotted border.</p>
+            <p class="dashed">A dashed border.</p>
+            <p class="solid">A solid border.</p>
+            <p class="double">A double border.</p>
+            <p class="groove">A groove border.</p>
+            <p class="ridge">A ridge border.</p>
+            <p class="inset">An inset border.</p>
+            <p class="outset">An outset border.</p>
+            <p class="none">No border.</p>
+            <p class="hidden">A hidden border.</p>
+            <p class="mix">A mixed border.</p>           
+    </div>
+    <div class="margin">
+        <h2>CSS Margins</h2>
+        <p>Margins are used to create space around elements, outside of any defined borders.</p>
+        <p class="p3">This element has a margin of 70px.</p>
+        <p>The <span>CSS margin</span> properties are used to create space around elements, outside of any defined borders.</p>
+        <p>With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).</p>
+        <h3>Margin - Individual Sides</h3>
+        <ul class="list">
+            <li>margin-top</li>
+            <li>margin-right</li>
+            <li>margin-bottom</li>
+            <li>margin-left</li>
+        </ul>
+        <div class="list1">
+        <p>All the margin properties can have the following values:</p>
+       <ul>
+        <li> auto - the browser calculates the margin</li>
+        <li>length - specifies a margin in px, pt, cm, etc.</li>
+        <li>% - specifies a margin in % of the width of the containing element</li>
+        <li>inherit - specifies that the margin should be inherited from the parent element</li>
+       </ul>
+       <p><strong>Tip:</strong> Negative values are allowed.</p>
+    </div>
+    <h2>All CSS Margin Properties</h2>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>A shorthand property for setting all the margin properties in one declaration</td>
+        </tr>
+        <tr>
+            <td>margin-bottom</td>
+            <td>Sets the bottom margin of an element</td>
+        </tr>
+        <tr>
+            <td>margin-left</td>
+            <td>Sets the left margin of an element</td>
+        </tr>
+        <tr>
+            <td>margin-right</td>
+            <td>Sets the right margin of an element</td>
+        </tr>
+        <tr>
+            <td>margin-top</td>
+            <td>Sets the top margin of an element</td>
+        </tr>
+    </table>
+    </div>
+    <div class="padding">
+        <h1>CSS Padding</h1>
+        <p>Padding is used to create space around an element's content, inside of any defined borders.</p>
+        <p class="p4">This element has a padding of 70px.</p>
+        <p>The CSS padding properties are used to generate space around an element's content, inside of any defined borders.</p>
+        <p>With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).</p>
+        <h3>Padding - Individual Sides</h3>
+        <p>CSS has properties for specifying the padding for each side of an element:</p>
+        <ul class="list">
+         <li>padding-top</li>
+         <li>padding-right</li>
+         <li>padding-bottom</li>
+         <li>padding-left</li>
+        </ul>
+        <div class="list1">
+        <p>All the padding properties can have the following values:</p>
+        <ul>
+            <li>length - specifies a padding in px, pt, cm, etc.</li>
+            <li>% - specifies a padding in % of the width of the containing element</li>
+            <li>inherit - specifies that the padding should be inherited from the parent element</li>
+        </ul>
+        <p><strong>Note:</strong> Negative values are not allowed.</p>
+    </div>
+          <h2>Padding and element width</h2>
+          <p>The CSS <span>width</span> property specifies the width of the element's content area. The content area is the portion inside the padding, border, and margin of an element (the box model).</p>
+          <p>So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result.</p>
+          <h6>Example</h6>
+          <p>Here, the < div> element is given a width of 300px. However, the actual width of the < div> element will be 350px (300px + 25px of left padding + 25px of right padding):</p>
+          <div class="ex1">
+            <p>This div is 300px wide.</p>
+        </div>
+        <div class="ex2">
+            <p>The width of this div is 300px, even though it is defined as 300px in the CSS.</p>
+        </div>
+        <p>To keep the width at 300px, no matter the amount of padding, you can use the <span>box-sizing</span> property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.</p>
+        <h6>Example</h6>
+        <p>Use the box-sizing property to keep the width at 300px, no matter the amount of padding:</p>
+        <h2>Padding and element width - with box-sizing</h2>
+        <div class="ex1">
+            <p>This div is 300px wide.</p>
+        </div>      
+        <div class="Ex2">
+            <p>The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.</p>
+       </div>
+       <h2>All CSS Padding Properties</h2>
+       <table>
+        <tr>
+            <th>Property</th>
+           <th>Description</th>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>A shorthand property for setting all the padding properties in one declaration</td>
+        </tr>
+        <tr>
+            <td>padding-bottom</td>
+            <td>Sets the bottom padding of an element</td>
+        </tr>
+        <tr>
+            <td>padding-left</td>
+            <td>Sets the left padding of an element</td>
+        </tr>
+        <tr>
+            <td>padding-right</td>
+            <td>Sets the right padding of an element</td>
+        </tr>
+        <tr>
+            <td>padding-top</td>
+            <td>Sets the top padding of an element</td>
+        </tr>
+       </table>
+    </div>
+    <div  class="end">
+    <p>These are some of the CSS Properties we have used to explain about CSS.</p>
+    <p>Thank you!</p>
+    </div>
+</body>
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63cfe9b7c2f1ac1e202f5976/1gni2huqg';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</html>
+
+	
+	
+	
